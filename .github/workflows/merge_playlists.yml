@@ -28,7 +28,7 @@ jobs:
       run: python merge_playlists.py
     
     - name: Upload merged playlist
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: merged-playlist
         path: merged_playlist.m3u
